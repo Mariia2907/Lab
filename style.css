@@ -1,0 +1,133 @@
+/* 🔸 Твій існуючий стиль залишається без змін */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Контейнер усіх екранів */
+.screens {
+    display: flex;
+    gap: 20px;
+}
+
+/* Окремий екран */
+.container {
+    background-color: #FFFFFF;
+    width: 375px;
+    height: 812px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Фото */
+.image {
+    position: absolute;
+    left: 0;
+    top: 135px;
+    width: 375px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Заголовок */
+h2 {
+    background-color: #FF5F5F;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    padding: 13px 15px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    left: 69px;
+    top: 481px;
+    width: 237px;
+}
+
+/* Текст */
+p {
+    position: absolute;
+    left: 51px;
+    top: 566px;
+    width: 282px;
+    color: #5A5A64;
+    font-size: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Крапки */
+.pagination {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 52px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #F5F5FF;
+    border-radius: 1px;
+}
+
+.dot.active {
+    background-color: #FF5F5F;
+}
+
+/* Кнопки */
+button {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.skip {
+    position: absolute;
+    left: 16px;
+    top: 742px;
+    width: 70px;
+    height: 30px;
+    background-color: #F5F5FF;
+    color: #32323C;
+}
+
+.next {
+    position: absolute;
+    left: 289px;
+    top: 742px;
+    width: 70px;
+    height: 30px;
+    background-color: #FF6B6B;
+    color: #FFFFFF;
+}

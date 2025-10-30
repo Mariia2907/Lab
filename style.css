@@ -1,5 +1,3 @@
-/* 🔸 Твій існуючий стиль залишається без змін */
-
 * {
     margin: 0;
     padding: 0;
@@ -16,13 +14,11 @@ body {
     padding: 20px;
 }
 
-/* Контейнер усіх екранів */
 .screens {
     display: flex;
     gap: 20px;
 }
 
-/* Окремий екран */
 .container {
     background-color: #FFFFFF;
     width: 375px;
@@ -34,7 +30,6 @@ body {
     overflow: hidden;
 }
 
-/* Фото */
 .image {
     position: absolute;
     left: 0;
@@ -52,7 +47,6 @@ body {
     object-fit: contain;
 }
 
-/* Заголовок */
 h2 {
     background-color: #FF5F5F;
     color: #FFFFFF;
@@ -68,7 +62,6 @@ h2 {
     width: 237px;
 }
 
-/* Текст */
 p {
     position: absolute;
     left: 51px;
@@ -80,7 +73,6 @@ p {
     line-height: 1.5;
 }
 
-/* Крапки */
 .pagination {
     display: flex;
     gap: 20px;
@@ -101,7 +93,6 @@ p {
     background-color: #FF5F5F;
 }
 
-/* Кнопки */
 button {
     font-size: 12px;
     font-weight: 600;
